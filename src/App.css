@@ -1,0 +1,4 @@
+.react-multi-carousel-item {
+    display: grid;
+    grid-auto-rows: minmax(300px, auto);
+}

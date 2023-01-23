@@ -1,0 +1,17 @@
+.app-container {
+    width: calc(100% - 20rem);
+    height: 100%;
+    padding: 0 10rem;
+    position: relative;
+    min-height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 1280px) {
+    .app-container {
+        width: calc(100% - 2rem);
+        padding: 0 1rem;
+    }
+}

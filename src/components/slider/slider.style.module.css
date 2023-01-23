@@ -1,0 +1,29 @@
+.custom-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 1px 1px 3px 1px rgba(76, 76, 76, 0.262);
+    position: absolute;
+}
+
+.custom-arrow img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    right: 0.5rem;
+}
+
+.left {
+    left: 0.5rem;
+    box-shadow: -1px 1px 3px 1px rgba(76, 76, 76, 0.262);
+}
+
+.left img {
+    transform: translate(-50%, -50%) rotateY(180deg);
+}
